@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -ex
+artifactory() {
+    echo ""
+}
+pip_opts=""
+
+pip install --extra-index-url "$(artifactory)" -r <(echo "
+boto3 
+click
+pyyaml
+") 
