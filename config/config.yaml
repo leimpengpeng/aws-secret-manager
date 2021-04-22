@@ -1,0 +1,20 @@
+common:
+  cost_center: "pengpeng_leim89"
+  contact:  "myMoney"
+  ProjectCode: "mini"
+
+ci:
+  ew1:
+    deployment_group: ew1-idprot-ci
+stg:
+  ew1:
+    deployment_group: ew1-idprot-stg
+prd:
+  ew1:
+    deployment_group: ew1-idprot-prd
+  ane1:
+    deployment_group: ane1-idprot-prd
+  ue1:
+    deployment_group: ue1-idprot-prd
+
+  
