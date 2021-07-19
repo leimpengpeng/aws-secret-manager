@@ -8,4 +8,4 @@ $ source venv/bin/activate
 
 
 ## Run 
-./bin/secretmanager --help
+./bin/idp_secretmanager --help
